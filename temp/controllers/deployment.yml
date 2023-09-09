@@ -12,7 +12,7 @@ spec:
         labels:
           app: nginx
     spec:      
-    containers:
+      containers:
       - name: my-pod
         image: nginx:latest
         ports:
