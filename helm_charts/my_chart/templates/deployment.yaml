@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ip-app-deployment
+  name: ip-app-deployment1
 spec:
   replicas: {{ .Values.deploymentOne.deploymentFirst }}
   selector:
